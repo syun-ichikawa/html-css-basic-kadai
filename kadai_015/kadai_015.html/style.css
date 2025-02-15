@@ -1,0 +1,32 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+  }
+  .decoration {
+    font-size: 20px;
+  }
+  .blue {
+    color: rgb(83, 192, 235);
+      }
+      .pink {
+        color: rgb(255, 192, 203)
+      }
+      h1{
+        font-size: 2rem; /* ルート要素の2倍 */
+  letter-spacing: 1.2em; /* 文字の大きさに対する1.2倍の文字間 */
+  border-bottom:solid 3px rgb(115, 115, 114);
+  text-shadow: 1px 1px 2px gray;
+
+  font-family: "Jsans-serif, sans-serif";
+  font-optical-sizing: auto;
+  font-weight: 400 6;
+  font-style: normal;
+
+}
+
+:root {
+  font-size: 20px; /* 基準のフォントサイズを設定 */
+}
+#basic > p {
+  font-weight: bold;
+}
