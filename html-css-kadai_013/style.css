@@ -131,7 +131,19 @@ PC用のスタイル
   #menu-sp {
     display: none;
   }
-  #nav-sp {
+  #nav-sp-duplicate {
     display: none;
+  }
+}
+
+/* デフォルトでは非表示 */
+#close {
+  display: none;
+}
+
+/* スマートフォンなど小さい画面の時のみ表示 */
+@media only screen and (max-width: 767px) {
+  #close {
+    display: block; /* または必要な表示方法 */
   }
 }
